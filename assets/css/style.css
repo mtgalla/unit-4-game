@@ -1,0 +1,36 @@
+.image-resize{
+  width:200px;
+  height:175px;
+  /*margin-bottom: 30px;
+  padding: 14px;
+  margin-top:-75px;*/
+
+}
+
+.card-resize{
+  width:200px;
+  height:175px;
+}
+
+.no-margin{
+  margin: 10px;
+}
+
+.cardBody{
+padding:0rem;
+}
+
+.text-padding{
+  margin: 20px 10px 30px;
+  text-align:center;
+  width:210px;
+  height:200px;
+  padding: 0px;
+  border: solid;
+  border-width: 3px;
+  border-color: green;
+}
+
+.power{
+  margin-top:-115px;
+}
