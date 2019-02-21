@@ -3,14 +3,87 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/reset">
-  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
-  <script src="javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Star Wars Game</title>
 </head>
 
 <body>
+  <div class = "container no-margin">
+
+    <div class = "row">
+      <div class ="col-xs-12 col-sm-8 col-lg-8"></div>
+        <h1>Star Wars RPG!</h1>
+    </div>
+    <div class="row">
+    <h3>Your Character</h3>
+  </div>
+    <div class="row">
+      <div class="card character-one card-border">
+        <h5 class="card-title">Chewbacca</h5>
+        <img class="card-img-top image-resize col-xs-6 col-sm-6 col-lg-7" id="pic" src="images/Chewbacca.png" alt="Chewbacca">
+        <div class="card-body">
+          <p class="card-text" id="health">100</p>
+        </div>
+      </div>
+
+      <div class="card character-two card-border">
+        <h5 class="card-title">Han Solo</h5>
+        <img class="card-img-top image-resize col-xs-6 col-sm-6 col-lg-7" id="pic" src="images/Han_Solo.png" alt="Han Solo ">
+        <div class="card-body">
+          <p class="card-text" id="health">180</p>
+        </div>
+      </div>
+
+      <div class="card character-three card-border">
+        <h5 class="card-title">Darth Vader</h5>
+        <img class="card-img-top image-resize col-xs-6 col-sm-6 col-lg-7" id="pic" src="images/Darth_Vader.png" alt="Darth Vader">
+        <div class="card-body">
+          <p class="card-text" id="health">200</p>
+        </div>
+      </div>
+
+      <div class="card character-four card-border">
+        <h5 class="card-title">Stormtrooper</h5>
+        <img class="card-img-top image-resize col-xs-6 col-sm-6 col-lg-7" id="pic" src="images/Stormtrooper.png" alt="Stormtrooper">
+        <div class="card-body">
+          <p class="card-text" id="health">150</p>
+        </div>
+      </div>
+    </div>
+<div class = "row" style="margin-top:20px;">
+<h4>Enemies Available to Attack</h4>
+</div>
+<div class = "row" style="margin-top:50px;">
+  <div class="card-one" id="enemy-health"></div>
+  <div class="card-two" id="enemy-health"></div>
+  <div class="card-three" id="enemy-health"></div>
+</div>
+<br>
+<div class = "row">
+<h4>Fight Section</h4>
+</div>
+<br>
+<div class = "row">
+<button>Attack</button>
+</div>
+<div class = "row" style="margin-top:10px;">
+  <h4>Defender</h4>
+</div>
+  <div class = "row" style="margin-top:10px;">
+  <div class="enemy"></div>
+  </div>
+</div>
+
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <!-- Script -->
+ <script type="text/javascript" src="javascript/game.js"></script>
 
 </body>
+
 
 </html>

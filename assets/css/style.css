@@ -1,0 +1,43 @@
+
+
+body{
+  background-image: url("../images/starwars_backdrop.png");
+  opacity: 50%;
+  color:orange;
+
+}
+
+.image-resize{
+  width:150px;
+  height:125px;
+  margin-left:40px;
+
+}
+
+.card-resize{
+  width:180px;
+}
+
+.no-margin{
+  margin: 10px;
+}
+
+.cardBody{
+padding:0rem;
+}
+
+.card-border{
+  height:215px;
+  width: 215px;
+  text-align:center;
+  padding: 0px;
+  border: solid;
+  border-width: 3px;
+  border-color:orange;
+  background-color: #eee;
+}
+
+#health{
+  color: orange;
+  font-weight: bold;
+}
