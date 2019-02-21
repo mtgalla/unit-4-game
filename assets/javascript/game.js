@@ -1,5 +1,6 @@
 //Star Wars Game
 
+<<<<<<< HEAD
 //global variables
 var chosenChar="";
 var chosenEnemy = "";
@@ -195,4 +196,15 @@ function fight(){
 function reset(){
 
 
+=======
+//Step 1: Select Character
+
+//set up click event when character chosen and save the result to a variable yourCharacter
+var yourCharacter = $(".card-img-top").on("click",chooseChar);
+
+//pass yourCharacter 
+
+function chooseChar(){
+  console.log(yourCharacter);
+>>>>>>> 8701095b9ef7d0d3cfcdc0d058bf396dbe0cc909
 }
